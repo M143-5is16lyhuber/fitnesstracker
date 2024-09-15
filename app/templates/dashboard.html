@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h1 class="mb-4">Dashboard</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Total Minutes Trained: {{ total_minutes }}</h2>
+                <h3>Activity Breakdown</h3>
+                <ul>
+                    <li>Laufen: {{ activity_breakdown['Laufen'] }} minutes</li>
+                    <li>Krafttraining: {{ activity_breakdown['Krafttraining'] }} minutes</li>
+                    <li>Fahrradfahren: {{ activity_breakdown['Fahrradfahren'] }} minutes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}

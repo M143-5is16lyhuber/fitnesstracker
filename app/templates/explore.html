@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>{{ title }}</h1>
+    <hr>
+    <ul>
+        {% for post in posts %}
+            <li>
+                <strong><a href="{{ url_for('user', username=post.author.username) }}">{{ post.author.username }}</a></strong> said: {{ post.body }}<br>
+                <small>{{ post.timestamp }} - {{ post.activity_type }} for {{ post.duration }} minutes</small>
+            </li>
+        {% endfor %}
+    </ul>
+    <div>
+        {% if prev_url %}
+            <a href="{{ prev_url }}">Previous</a>
+        {% endif %}
+        {% if next_url %}
+            <a href="{{ next_url }}">Next</a>
+        {% endif %}
+    </div>
+{% endblock %}
