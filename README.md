@@ -27,7 +27,7 @@ Das `setup.sh`-Skript wird die folgenden Requirements installieren:
 1. **Laden Sie das `setup.sh`-Skript herunter**:
 
    ```bash
-   wget https://raw.githubusercontent.com/M143-5is16lyhuber/fitnesstracker/master/setup.sh
+   wget https://raw.githubusercontent.com/M143-5is16lyhuber/fitnesstracker/main/setup.sh 
 
 2. **Führen Sie das Skript aus**:
 
