@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fitness Tracker Anwendung für VCID
 
 Dies ist eine webbasierte Anwendung auf Flask-Basis zum Verfolgen verschiedener Fitnessaktivitäten. Benutzer können sich anmelden, ihre Workouts protokollieren, ihren Trainingsverlauf anzeigen und anderen Benutzern folgen. Die Anwendung bietet zudem ein Dashboard zur Visualisierung der gesamten Trainingszeit und der Aufschlüsselung der Aktivitäten.
