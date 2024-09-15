@@ -18,35 +18,12 @@ Das `setup.sh`-Skript wird die folgenden Requirements installieren:
 
 - Python-Module
 - MySQL
-=======
-# Fitness Tracker Application for VCID
-
-This is a Flask-based web application for tracking various fitness activities. Users can log in, track their workouts, view their training history, follow other users, and explore new fitness trends. The application also provides a dashboard for visualizing total workout time and activity breakdown.
-
-## Features
-
-- **User Registration & Authentication**: Users can sign up, log in, and log out.
-- **Activity Tracking**: Log different types of activities such as running, cycling, and strength training.
-- **User Profiles**: View your profile and edit personal information.
-- **Following**: Follow other users to keep up with their activities.
-- **Dashboard**: Visualize the total workout time and breakdown by activity type.
-- **Calendar**: Plan and schedule your upcoming workouts using the calendar feature.
-- **Explore**: Discover activities from other users.
-
-## Requirements
-
-The setup.sh script will install the following requirements:
-
-- Python Modules
-- MySQL 
->>>>>>> e636cbf (Final Commit)
 - Nginx
 - Gunicorn
 - Supervisor
 
 ## Installation
 
-<<<<<<< HEAD
 1. **Laden Sie das `setup.sh`-Skript herunter**:
 
    ```bash
@@ -58,25 +35,7 @@ The setup.sh script will install the following requirements:
     chmod +x setup.sh
    ./setup.sh
 
-4. **Verbinden Sie sich über die IP-Adresse mit Ihrem Webserver**:
+3. **Verbinden Sie sich über die IP-Adresse mit Ihrem Webserver**:
 
    ```bash
    http://<your-ip>
-=======
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/M143-5is16lyhuber/fitnesstracker/.git
-   cd fitnesstracker
-
-2. ** Run the script**:
-
-    ```bash
-   ./setup.sh
-
-3. ** Connect to your Web-Server over the IP **
-
-   ```bash
-   http://<your-ip>
-
->>>>>>> e636cbf (Final Commit)
